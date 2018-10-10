@@ -5,9 +5,9 @@
 public class Ship
 {
     private int[] position = new int[2];     // [row,col]
-    final private char type;    // C carrier B battleship c cruiser S submarine D destroyer
+    private final char type;    // C carrier B battleship c cruiser S submarine D destroyer
     private boolean status;
-    final private int size;   // 5 4 3 3 2
+    private final int size;   // 5 4 3 3 2
     private char orientation;   // n northsouth e eastwest
 
     /**
