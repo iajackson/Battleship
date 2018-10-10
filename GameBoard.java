@@ -31,14 +31,33 @@ public class GameBoard
     public String toString()
     {
         String formattedBoard = "";
+        int border = size + 2;
+        for (int i=0; i<border; i++)
+        {
+            formattedBoard += "#";
+        }
+        formattedBoard += "\n";
         for (int row=0; row<size; row++)
         {
+            formattedBoard += "#";
             for(int col=0; col<size; col++)
             {
                 formattedBoard += squares[row][col];
             }
-            formattedBoard += "\n";
+            formattedBoard += "#\n";
+        }
+        for (int i=0; i<border; i++)
+        {
+            formattedBoard += "#";
         }
         return formattedBoard;
+    }
+
+    /**
+        Prints the board to the console
+    */
+    public void displayBoard()
+    {
+        System.out.println(toString());
     }
 }

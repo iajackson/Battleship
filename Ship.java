@@ -46,6 +46,36 @@ public class Ship
     }
 
     /**
+        toString method for printing ship details
+        @return The formatted ship string
+    */
+    public String toString()
+    {
+        String formattedShip = "Type: ";
+        switch (type)
+        {
+            case 'C':
+                formattedShip += "Carrier\n";
+                break;
+            case 'B':
+                formattedShip += "Battleship\n";
+                break;
+            case 'c':
+                formattedShip += "Cruiser\n";
+                break;
+            case 'S':
+                formattedShip += "Submarine\n";
+                break;
+            case 'D':
+                formattedShip += "Destroyer\n";
+                break;
+        }
+        formattedShip += "Position: " + position[0] + "," + position[1] + "\n";
+        formattedShip += "Orientation: " + orientation;
+        return formattedShip;
+    }
+
+    /**
         Accessor method for position field
         @return The position of the ship
     */

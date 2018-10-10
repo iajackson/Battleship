@@ -7,3 +7,17 @@ Ship placement phase
 Combat phase
 End game phase
 */
+
+public class Battleship
+{
+    public Battleship()
+    {
+        GameBoard board = new GameBoard(10);
+        board.displayBoard();
+    }
+
+    public static void main(String[] args)
+    {
+        new Battleship();
+    }
+}
