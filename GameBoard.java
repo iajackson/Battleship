@@ -1,0 +1,4 @@
+/*
+Board size
+game state
+*/

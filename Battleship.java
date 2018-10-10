@@ -1,0 +1,9 @@
+/*
+Prompt for number of players
+Prompt for size of gameboard
+Prompt for number of ships per player
+Generate gameboard
+Ship placement phase
+Combat phase
+End game phase
+*/
