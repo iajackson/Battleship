@@ -8,12 +8,22 @@ Combat phase
 End game phase
 */
 
+/*
+first draft
+assume 1 player
+assume 9x9 gameboard
+assume 5 ships
+*/
+import java.util.Scanner;
+import java.util.Random;
+
 public class Battleship
 {
     public Battleship()
     {
-        GameBoard board = new GameBoard(10);
-        board.displayBoard();
+        //Scanner keyboard = new Scanner(System.in);
+        Random rn = new Random();
+        
     }
 
     public static void main(String[] args)

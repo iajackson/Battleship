@@ -1,3 +1,0 @@
-/*
-List of ships belonging to player
-*/
